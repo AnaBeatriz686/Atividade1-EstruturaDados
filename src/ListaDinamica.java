@@ -240,6 +240,7 @@ public class ListaDinamica implements ListaOperacoes {
             System.out.println("A lista está vazia.");
         } else {
             if (indice < 0) {
+                System.out.println("Índice inválido.");
                 return null;
             }
             for (int i = 0; i < indice; i++) {

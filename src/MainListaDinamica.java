@@ -28,7 +28,7 @@ public class MainListaDinamica {
         String[] alimentos = {"Pepino", "Repolho", "Tomate", "Banana"};
         listaDinamica.adicionarVarios(alimentos);
         listaDinamica.exibir();
-        listaDinamica.obter(2);
+        listaDinamica.obter(4);
 
         System.out.println("======================================");
 
