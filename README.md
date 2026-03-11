@@ -1,1 +1,1 @@
-Atividade de Estrutura de Dados de Ana Beatriz, Gabriela Sosigan e Thiago Stein.
+Atividade de Estrutura de Dados de Ana Beatriz Esteves, Gabriela Sosigan e Thiago Stein.
