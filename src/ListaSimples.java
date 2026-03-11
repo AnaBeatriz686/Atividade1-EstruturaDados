@@ -3,7 +3,6 @@ public class ListaSimples implements ListaOperacoes {
 
     public ListaSimples(int tamanho) {
         this.lista = new String[tamanho];
-        System.out.println("Lista criada com sucesso! Existem " + tamanho + " posições disponíveis.");
     }
 
     public void adicionarElemento(String elemento) {
@@ -130,6 +129,9 @@ public class ListaSimples implements ListaOperacoes {
 
     @Override
     public int contar() {
+        if (estaVazia()){
+            System.out.println("Não existem elementos para serem contados.");
+        }
         int indice = 0;
         int qtdTotalValida = 0;
         for (int i = 0; i < this.lista.length; i++) {
